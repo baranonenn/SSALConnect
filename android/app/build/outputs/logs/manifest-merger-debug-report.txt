@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-quick-actions] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-quick-actions/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/931fe084b318d2d17f43697827513371/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/37b33649bf9fa3dad3f97c2395d602d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/df8822735a11191f9a8ac202f3ab00d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e704b4df18b939e7de7c085f2ce688ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2c70c0c1e1f69eae633b0bc9644a7e49/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7de0b77547284e1c48960d8b90a56e48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/182110078bd2de94d5b4be8a8567a9ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/dbcb8c2189c50fef2420726960c66c9e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/3e313414f94aaf0e402cc795412046c5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/3dba1bf4023a3a69b26262ca6ca0d294/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/64c3ba83985c15278dae5dcb28f03501/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/32404a5ec7a93daea656a6571d72148e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/22d32a4bb8b847e4635688d9850db903/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/bf58903af0b2fdf3163894a89110309c/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/73568d313296c88c476859ad0cbbc5a6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c64687da657da82c6d9d4a64986aa85f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8d39ee0931d4a742fd18f2594ffe537d/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8d70ee1cc1a7e295cd89e02e0560b91c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7df4f08aed50e2ae9a2d5c25a0acd4fb/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/22d32a4bb8b847e4635688d9850db903/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/22d32a4bb8b847e4635688d9850db903/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/bf58903af0b2fdf3163894a89110309c/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/bf58903af0b2fdf3163894a89110309c/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.ssalconnect.MainActivity
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-quick-actions] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-quick-actions/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-quick-actions] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-quick-actions/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/baranonen/Desktop/SSALConnect/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/590f77f20a5b1cdbac190a0c01cf2f02/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/931fe084b318d2d17f43697827513371/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/931fe084b318d2d17f43697827513371/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/37b33649bf9fa3dad3f97c2395d602d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/37b33649bf9fa3dad3f97c2395d602d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/df8822735a11191f9a8ac202f3ab00d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/df8822735a11191f9a8ac202f3ab00d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e704b4df18b939e7de7c085f2ce688ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/e704b4df18b939e7de7c085f2ce688ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2c70c0c1e1f69eae633b0bc9644a7e49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2c70c0c1e1f69eae633b0bc9644a7e49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7de0b77547284e1c48960d8b90a56e48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7de0b77547284e1c48960d8b90a56e48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/182110078bd2de94d5b4be8a8567a9ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/182110078bd2de94d5b4be8a8567a9ab/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/dbcb8c2189c50fef2420726960c66c9e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/dbcb8c2189c50fef2420726960c66c9e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/3e313414f94aaf0e402cc795412046c5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/3e313414f94aaf0e402cc795412046c5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/3dba1bf4023a3a69b26262ca6ca0d294/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/3dba1bf4023a3a69b26262ca6ca0d294/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/64c3ba83985c15278dae5dcb28f03501/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/64c3ba83985c15278dae5dcb28f03501/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/32404a5ec7a93daea656a6571d72148e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/32404a5ec7a93daea656a6571d72148e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/22d32a4bb8b847e4635688d9850db903/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/22d32a4bb8b847e4635688d9850db903/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/73568d313296c88c476859ad0cbbc5a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/73568d313296c88c476859ad0cbbc5a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c64687da657da82c6d9d4a64986aa85f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c64687da657da82c6d9d4a64986aa85f/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8d39ee0931d4a742fd18f2594ffe537d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8d39ee0931d4a742fd18f2594ffe537d/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8d70ee1cc1a7e295cd89e02e0560b91c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8d70ee1cc1a7e295cd89e02e0560b91c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7df4f08aed50e2ae9a2d5c25a0acd4fb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/baranonen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7df4f08aed50e2ae9a2d5c25a0acd4fb/AndroidManifest.xml:20:5-44
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/baranonen/Desktop/SSALConnect/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
