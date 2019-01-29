@@ -23,7 +23,7 @@ renderData () {
     console.log('gelen data ' + this.state);
     console.log('render');
     return (
-      <ScrollView style={{ marginTop: 0}}>
+      <ScrollView style={{ backgroundColor: 'white', marginTop: 0}}>
         {this.renderData()}
       </ScrollView>
 

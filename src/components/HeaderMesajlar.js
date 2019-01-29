@@ -1,11 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const Header = () => {
+const HeaderMesajlar = () => {
   const { textStyle, viewStyle } = styles;
   return (
     <View style={viewStyle}>
-      <Text style={textStyle}> Mesajlar</Text>
+      <Text style={textStyle}>Mesajlar</Text>
+      <View style={{width: 10000, height: 1, backgroundColor: '#F1F1F1'}} />
     </View>
   );
 };
@@ -13,18 +14,18 @@ const Header = () => {
 const styles = {
   textStyle: {
     fontSize: 40,
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
   viewStyle: {
-    marginTop: 30,
-    backgroundColor: '#f8f8f8',
-    height: 60,
+    marginTop: 40,
+    height: 49,
     justifyContent: 'flex-start',
     alignItems: 'baseline',
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0
   }
 }
+
 
 
 
