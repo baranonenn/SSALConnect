@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <View style={viewStyle}>
       <Text style={textStyle}> SSALConnect</Text>
-      <View style={{width: 10000, height: 1, backgroundColor: '#F1F1F1'}} />
     </View>
   );
 };
@@ -15,9 +14,12 @@ const styles = {
   textStyle: {
     fontSize: 40,
     fontWeight: "bold",
+    color: "white",
   },
   viewStyle: {
+    backgroundColor: "#25337B",
     marginTop: 40,
+    marginBottom: 10,
     height: 49,
     justifyContent: 'flex-start',
     alignItems: 'baseline',

@@ -1,37 +1,66 @@
 import React from 'react';
-import { Button, Text, ScrollView, View, Image, Linking } from 'react-native';
+import { TouchableOpacity, Button, Text, ScrollView, View, Image, Linking } from 'react-native';
 
 const Ayarlar = () => {
-  const { textStyle, subContainerStyle, AccountStyle, bigTextStyle} = styles;
+  const { textStyle, subContainerStyle, AccountStyle, bigTextStyle, buttonStyle} = styles;
   return (
-    <ScrollView>
+    <ScrollView style={{backgroundColor: '#f8f8f8'}}>
+<View style={{ marginTop: 40}}>
+    <View style={{width: 10000, height: 1, backgroundColor: 'gray'}} />
+
     <View style={AccountStyle}>
-        <Image source={require('./img/my-icon.png')} style={{ width:60 , height:40}} />
+        <Image source={require('./img/my-icon.png')} style={{ width:60 , height:40, marginBottom:10}} />
         <Text style={bigTextStyle}>Baran Önen </Text>
     </View>
+    <View style={{width: 10000, height: 1, backgroundColor: 'gray'}} />
 <View style={{width: 10000, height: 40, backgroundColor: '#f8f8f8'}} />
+
     <View style={subContainerStyle}>
+        <View style={{width: 10000, height: 1, backgroundColor: 'gray'}} />
+        <View style={{width: 10000, height: 10, backgroundColor: 'white'}} />
       <Text style={textStyle}>Bu sürüm, test amacıyla yayınlanan bir sürümdür. Bazı özellikler eksik olabilir/beklendiği gibi çalışmayabilir. Bulduğunuz hataları lütfen bildiriniz.</Text>
-    <Button
-      onPress={() => {
-        Linking.openURL("mailto: baranonenn@gmail.com?subject=SSALConnect Geri Bildirim");
-      }}
-      title="Geri Bildirim"
-    />
-    </View>
+<View style={{width: 10000, height: 20, backgroundColor: '#f8f8f8'}} />
+<View style={{flexDirection:"row"}}>
+       <TouchableOpacity
+         style={styles.buttonStyle}
+         onPress={this.onPress}
+       >
+         <Text style={{color: "white"}}>  Geri Bildirim  </Text>
+       </TouchableOpacity>
+       <View style={{width: 10, height: 20, backgroundColor: '#f8f8f8'}} />
+       <TouchableOpacity
+         style={styles.buttonStyle}
+         onPress={this.onPress2}
+       >
+         <Text style={{color: "white"}}>  Açık Kaynak Kodları  </Text>
+       </TouchableOpacity>
+       </View>
+               <View style={{width: 10000, height: 1, backgroundColor: 'gray'}} />
+       </View>
+       </View>
     </ScrollView>
   );
 };
 
+onPress = () => {
+      Linking.openURL("mailto: baranonenn@gmail.com?subject=SSALConnect Geri Bildirim")
+  }
+
+  onPress2 = () => {
+        Linking.openURL("https://github.com/baranonen/SSALConnect")
+    }
+
 const styles = {
   bigTextStyle: {
     fontSize: 40,
+    marginBottom: 5,
   },
   TextStyle: {
     fontSize: 30,
+    marginTop: 20,
   },
   AccountStyle: {
-    marginTop: 40,
+    backgroundColor: "white",
     flexDirection: "row",
     height: 60,
     justifyContent: 'space-between',
@@ -40,6 +69,7 @@ const styles = {
     shadowOpacity: 0
   },
   subContainerStyle: {
+    backgroundColor: "white",
     marginTop: 40,
     height: 60,
     justifyContent: 'center',
@@ -50,6 +80,17 @@ const styles = {
 imageStyle: {
   height: 300,
   flex: 1
+},
+buttonStyle: {
+  backgroundColor: '#25337B',
+  padding: 15,
+  marginBottom: 15,
+  borderRadius: 10,
+  shadowColor: '#000',
+  shadowOffset: {width: 0, height: 0},
+  shadowOpacity: 0.1,
+  shadowRadius: 5,
+  elevation: 1
 },
 }
 

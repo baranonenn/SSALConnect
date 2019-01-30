@@ -78,11 +78,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		73HwUKHJX1hd5q4SXPF62Z+24XE=
+		pUMa6GQCbXT85mIs4YqwjEtpTq8=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		mkgKikgyb/fH6XlBDaFdqchwZbw=
+		8mFoqzDMQtNu4609umoOMCc0RHk=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -139,7 +139,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LnIYxvN0dsdFYbZ7QVDozQ/dPYA=
+		2MkINqLHLIYJv307kvmZ9ZcvvCg=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -175,7 +175,7 @@
 		</data>
 		<key>PlugIns/SSALConnectTests.xctest/SSALConnectTests</key>
 		<data>
-		Ipq/bPHwDV62qVU/G2OIA+DnyJU=
+		EDBvTY3pWfcUcz8/JDrvMnVkZK4=
 		</data>
 		<key>PlugIns/SSALConnectTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -394,22 +394,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			73HwUKHJX1hd5q4SXPF62Z+24XE=
+			pUMa6GQCbXT85mIs4YqwjEtpTq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XQRtpWHwBuDDjnXpHiGcpUhHWNa54h01CRUnsDQhMhU=
+			f+iZkVukUuBSFglMXnkGLsjPO2OETyxEh7NnZLA4Tr0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mkgKikgyb/fH6XlBDaFdqchwZbw=
+			8mFoqzDMQtNu4609umoOMCc0RHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sc1qrCuPEunJMUAgBQtx6buxlGksutnepMxYRd2Vh4E=
+			fslDYjOfGvToMokKI/q8sbHDe6yCNC2i0idnD34K4gI=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -627,11 +627,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ipq/bPHwDV62qVU/G2OIA+DnyJU=
+			EDBvTY3pWfcUcz8/JDrvMnVkZK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uSy/Eza3WKgVaa09bi9Phj5WglfIhqDOd8/3tMMZ9AA=
+			nBGq0dd1cP+r97Mk1TroYmduhcPJQd9OOXwCQcAlOFc=
 			</data>
 		</dict>
 		<key>PlugIns/SSALConnectTests.xctest/_CodeSignature/CodeResources</key>
