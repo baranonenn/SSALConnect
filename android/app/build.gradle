@@ -137,6 +137,9 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-webview')
+    compile project(':react-native-admob')
+    compile project(':react-native-share')
     compile project(':react-native-quick-actions')
     compile project(':react-native-vector-icons')
     compile project(':react-native-gesture-handler')

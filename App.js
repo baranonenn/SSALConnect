@@ -3,10 +3,11 @@ import { Button, Text, View, SafeAreaView, textStyle } from 'react-native';
 import Header from './src/components/Header';
 import Liste from './src/components/Liste';
 import Ayarlar from './src/components/Ayarlar';
-import Mesajlar from './src/components/Mesajlar';
+import OkulSitesi from './src/components/OkulSitesi';
 import HeaderAyarlar from './src/components/HeaderAyarlar';
-import HeaderMesajlar from './src/components/HeaderMesajlar';
+import HeaderOkulSitesi from './src/components/HeaderOkulSitesi';
 import { createBottomTabNavigator, createAppContainer } from "react-navigation";
+
 
 class AnaSayfa extends React.Component {
   render() {
@@ -19,12 +20,12 @@ class AnaSayfa extends React.Component {
   }
 }
 
-class MesajlarEkranı extends React.Component {
+class OkulSitesiEkranı extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.safeArea}>
-        <HeaderMesajlar/>
-        <Mesajlar/>
+        <HeaderOkulSitesi/>
+        <OkulSitesi/>
       </SafeAreaView>
     );
   }
@@ -43,7 +44,7 @@ class AyarlarEkranı extends React.Component {
 
 const TabNavigator = createBottomTabNavigator({
   "Ana Sayfa" : AnaSayfa,
-  "Mesajlar" : MesajlarEkranı,
+  "Okul Sitesi" : OkulSitesiEkranı,
   "Ayarlar" : AyarlarEkranı
 });
 

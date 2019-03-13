@@ -1,9 +1,7 @@
 import React from 'react';
-import { TouchableOpacity, Text, View, Image, Linking, Button, Alert } from 'react-native';
+import { TouchableOpacity, Text, View, Button, Image, Linking, Alert, Clipboard } from 'react-native';
+import Buttona from './Button';
 
-onPress3 = () => {
-      Linking.openURL(this.data.url)
-  }
 
 onPress4 = () => {
       Alert.alert('Haberi beğendiniz!')
@@ -15,28 +13,40 @@ return (
 <View style={containerStyle}>
 
 <View style={subContainerStyle}>
-  <Text style={{fontWeight: "bold", marginTop: 5, marginBottom: 5}}> {data.title}</Text>
+  <Text style={{marginTop: 5, marginBottom: 5, alignItems: "center"}}>{data.title}</Text>
 </View>
 
 <View style={subContainerStyle}>
-  <Image style={ImageStyle} source={{ url: data.image, cache: 'reload'}} />
+  <Image style={ImageStyle} source={{ uri: data.image, cache: 'reload'}} />
+</View>
+
+<View style={subContainerStyle}>
+  <Text style={{ marginTop: 5, marginBottom: 5 }}>{data.description}</Text>
 </View>
 
 <View style={buttonViewStyle}>
 
-<TouchableOpacity
-  style={styles.buttonStyle}
-  onPress={this.onPress3}
->
-  <Text style={{color: "white"}}>  Daha Fazla  </Text>
-</TouchableOpacity>
 
-<TouchableOpacity onPress={this.onPress4}>
-  <Image
-    style={styles.heartStyle}
-    source={require('./img/kalp.png')}
-  />
-</TouchableOpacity>
+
+
+
+<Button
+  onPress={() => {
+    Linking.openURL(data.url);
+  }}
+  title=" Daha Fazla"
+/>
+
+
+
+<Button
+  onPress={() => {
+    Clipboard.setString(data.url);
+    Alert.alert('Bağlantı kopyalandı');
+  }}
+  title="🔗"
+/>
+
 
 </View>
 
@@ -84,6 +94,7 @@ buttonStyle: {
   marginBottom: 10,
   marginTop: 10,
   marginLeft: 15,
+  marginRight: 15,
   borderRadius: 10,
   shadowColor: '#000',
   shadowOffset: {width: 0, height: 0},
@@ -95,7 +106,7 @@ heartStyle: {
   height: 30,
   width: 30,
   marginRight: 15,
-  marginTop: 10,
+  marginTop: 5,
 },
 }
 

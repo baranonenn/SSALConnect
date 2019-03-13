@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>089CF66A-5869-48CE-BCA7-A70CEDC1138A</key>
+		<key>B403790E-0E33-4539-986C-A738B8D7EB18</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,9 +15,9 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>089CF66A-5869-48CE-BCA7-A70CEDC1138A.xcactivitylog</string>
+			<string>B403790E-0E33-4539-986C-A738B8D7EB18.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>SSALConnect project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building project SSALConnect with scheme SSALConnect and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>570544125.06065404</real>
+			<real>573713114.54446495</real>
 			<key>timeStoppedRecording</key>
-			<real>570544128.92609298</real>
+			<real>573713131.57526898</real>
 			<key>title</key>
 			<string>Building project SSALConnect with scheme SSALConnect and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>089CF66A-5869-48CE-BCA7-A70CEDC1138A</string>
-		</dict>
-		<key>25BC3024-955C-41CD-A14C-1E8060E9C806</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>25BC3024-955C-41CD-A14C-1E8060E9C806.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>SSALConnect project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SSALConnect</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project SSALConnect with scheme SSALConnect and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>570569714.77963698</real>
-			<key>timeStoppedRecording</key>
-			<real>570569718.50136197</real>
-			<key>title</key>
-			<string>Building project SSALConnect with scheme SSALConnect and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>25BC3024-955C-41CD-A14C-1E8060E9C806</string>
+			<string>B403790E-0E33-4539-986C-A738B8D7EB18</string>
 		</dict>
 	</dict>
 </dict>

@@ -78,11 +78,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		pUMa6GQCbXT85mIs4YqwjEtpTq8=
+		tt/e3xA1x27vpS64zu4tzXWueFU=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		8mFoqzDMQtNu4609umoOMCc0RHk=
+		So0AE5cEmcMdIB3sKShJ003twC4=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -139,7 +139,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2MkINqLHLIYJv307kvmZ9ZcvvCg=
+		X44oG6hebi1AWSp99+R2GgfhvSg=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -167,19 +167,19 @@
 		</data>
 		<key>PlugIns/SSALConnectTests.xctest.dSYM/Contents/Resources/DWARF/SSALConnectTests</key>
 		<data>
-		3cY5MP0Yu1u+LVKaIpuQFReC4LE=
+		fDgrWya9XAgNAIHyRAO0jO60f+Y=
 		</data>
 		<key>PlugIns/SSALConnectTests.xctest/Info.plist</key>
 		<data>
-		3thdj/JmFxqRCY5YmzTck1iaSb8=
+		aN+C5YL+23WhF07C3SlaWr+e7Nw=
 		</data>
 		<key>PlugIns/SSALConnectTests.xctest/SSALConnectTests</key>
 		<data>
-		EDBvTY3pWfcUcz8/JDrvMnVkZK4=
+		NW+2K6Mh7npW/ccxfLV7v5OSZAs=
 		</data>
 		<key>PlugIns/SSALConnectTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		C54ONZ047iPiVJubgx2xue7Z38w=
+		4h3DvyPZ56A/Xi/YO8Y37QFKQRQ=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -394,22 +394,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pUMa6GQCbXT85mIs4YqwjEtpTq8=
+			tt/e3xA1x27vpS64zu4tzXWueFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			f+iZkVukUuBSFglMXnkGLsjPO2OETyxEh7NnZLA4Tr0=
+			glGK8wjTUWfCOngapgKMbfClOkyGUilAtL0gBkM+Nn4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8mFoqzDMQtNu4609umoOMCc0RHk=
+			So0AE5cEmcMdIB3sKShJ003twC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fslDYjOfGvToMokKI/q8sbHDe6yCNC2i0idnD34K4gI=
+			lvxGR2nqB7lC32oZ3KtMdKiD+/cWVmQKekB/n8tUPh8=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -605,44 +605,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3cY5MP0Yu1u+LVKaIpuQFReC4LE=
+			fDgrWya9XAgNAIHyRAO0jO60f+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			5tz6Qg500tzda0pylaj+oqRMbd4wTeZLDVzbjt8f7v4=
+			G7YE9cuZKpO7VSgtwRSRqtbSjHZgfJYOeWjHB4gUKjg=
 			</data>
 		</dict>
 		<key>PlugIns/SSALConnectTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3thdj/JmFxqRCY5YmzTck1iaSb8=
+			aN+C5YL+23WhF07C3SlaWr+e7Nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pG8e13INO1dGi95ZJd7II/f6nHahff3UVYPzsq4aMuc=
+			ryZLyU+Av5BTAYoNUONxkS1+NvaEDvpVJQordA+SJsY=
 			</data>
 		</dict>
 		<key>PlugIns/SSALConnectTests.xctest/SSALConnectTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EDBvTY3pWfcUcz8/JDrvMnVkZK4=
+			NW+2K6Mh7npW/ccxfLV7v5OSZAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			nBGq0dd1cP+r97Mk1TroYmduhcPJQd9OOXwCQcAlOFc=
+			vNlcyqZpeIFVIxA+hR2zpHhA+lm3V0c7xo+oKlpCdE4=
 			</data>
 		</dict>
 		<key>PlugIns/SSALConnectTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C54ONZ047iPiVJubgx2xue7Z38w=
+			4h3DvyPZ56A/Xi/YO8Y37QFKQRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			gkzVfaNQfkaUveYTBx12d0OhuagQAJBUlTjGX4K8jY0=
+			gPUiX7hP01gBdXgd4AZePmruS20hlQgHEGOA5BVcpV0=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

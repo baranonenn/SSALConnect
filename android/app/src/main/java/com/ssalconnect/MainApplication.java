@@ -3,6 +3,9 @@ package com.ssalconnect;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+import com.sbugert.rnadmob.RNAdMobPackage;
+import cl.json.RNSharePackage;
 import com.reactNativeQuickActions.AppShortcutsPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
@@ -26,6 +29,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNCWebViewPackage(),
+            new RNAdMobPackage(),
+            new RNSharePackage(),
             new AppShortcutsPackage(),
             new VectorIconsPackage(),
             new RNGestureHandlerPackage()
