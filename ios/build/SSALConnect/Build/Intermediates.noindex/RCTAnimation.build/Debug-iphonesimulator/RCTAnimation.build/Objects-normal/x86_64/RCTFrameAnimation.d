@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTFrameAnimation.m \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTFrameAnimation.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTAnimationDriver.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h

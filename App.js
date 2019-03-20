@@ -7,7 +7,7 @@ import OkulSitesi from './src/components/OkulSitesi';
 import HeaderAyarlar from './src/components/HeaderAyarlar';
 import HeaderOkulSitesi from './src/components/HeaderOkulSitesi';
 import { createBottomTabNavigator, createAppContainer } from "react-navigation";
-
+import Icon from 'react-native-vector-icons/Ionicons'
 
 class AnaSayfa extends React.Component {
   render() {
@@ -24,7 +24,6 @@ class OkulSitesiEkranı extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.safeArea}>
-        <HeaderOkulSitesi/>
         <OkulSitesi/>
       </SafeAreaView>
     );
@@ -43,9 +42,30 @@ class AyarlarEkranı extends React.Component {
 }
 
 const TabNavigator = createBottomTabNavigator({
-  "Ana Sayfa" : AnaSayfa,
-  "Okul Sitesi" : OkulSitesiEkranı,
-  "Ayarlar" : AyarlarEkranı
+  "Ana Sayfa" : {screen: AnaSayfa,
+  navigationOptions:{
+    tabBarLabel: "Ana Sayfa",
+    tabBarIcon: ({tintColor})=>(
+      <Icon name="ios-home" color={tintColor} size={24} />
+    )
+  }
+  },
+  "Okul Sitesi" : {screen: OkulSitesiEkranı,
+    navigationOptions:{
+      tabBarLabel: "Okul Sitesi",
+      tabBarIcon: ({tintColor})=>(
+        <Icon name= "ios-compass" color={tintColor} size={24} />
+      )
+    }
+   },
+  "Ayarlar" : {screen: AyarlarEkranı,
+    navigationOptions:{
+      tabBarLabel: "Ayarlar",
+      tabBarIcon: ({tintColor})=>(
+        <Icon name="ios-settings" color={tintColor} size={24} />
+      )
+    }
+   },
 });
 
 const styles = {

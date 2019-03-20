@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native-webview/ios/RNCWKWebView.m \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native-webview/ios/RNCWKWebView.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/ios/build/SSALConnect/Build/Products/Debug-iphonesimulator/include/React/RCTAutoInsetsProtocol.h \
+  /Users/baranonen/Desktop/Projeler/SSALConnect/node_modules/react-native-webview/ios/RNCWKProcessPoolManager.h

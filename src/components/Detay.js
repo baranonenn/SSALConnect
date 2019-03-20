@@ -1,6 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, Text, View, Button, Image, Linking, Alert, Clipboard } from 'react-native';
-import Buttona from './Button';
+import { Text, View, Button, Image, Linking, Alert, Clipboard } from 'react-native';
 
 
 onPress4 = () => {
@@ -10,6 +9,7 @@ onPress4 = () => {
 const Detay = ({ data }) => {
 const { containerStyle, subContainerStyle, ImageStyle, titleStyle, buttonViewStyle, buttonStyle, heartStyle} = styles;
 return (
+  
 <View style={containerStyle}>
 
 <View style={subContainerStyle}>
@@ -108,6 +108,20 @@ heartStyle: {
   marginRight: 15,
   marginTop: 5,
 },
+headerTextStyle: {
+  fontSize: 40,
+  fontWeight: "bold",
+  color: "white"
+},
+headerViewStyle: {
+  marginTop: 40,
+  marginBottom: 10,
+  height: 49,
+  justifyContent: 'flex-start',
+  alignItems: 'baseline',
+  shadowOffset: { width: 0, height: 0 },
+  shadowOpacity: 0
+}
 }
 
 export default Detay;

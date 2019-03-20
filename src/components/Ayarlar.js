@@ -17,23 +17,25 @@ const Ayarlar = () => {
 
     <View style={subContainerStyle}>
         <View style={{width: 10000, height: 2, backgroundColor: '#ebebeb'}} />
-        <View style={{ backgroundColor: "white" }}/>
-        <View style={{width: 10000, height: 10, backgroundColor: 'white'}} />
-      <Text style={textStyle}>Bu sürüm, test amacıyla yayınlanan bir sürümdür. Bazı özellikler eksik olabilir/beklendiği gibi çalışmayabilir. Bulduğunuz hataları lütfen bildiriniz.</Text>
+        <View style={{ backgroundColor: "#f8f8f8" }}/>
+        <View style={{width: 10000, height: 10, backgroundColor: '#f8f8f8'}} />
+        <View style={{marginLeft: 15, marginRight: 15}}>
+      <Text style={textStyle}>Bu sürüm, test amacıyla yayınlanan bir sürümdür. Bazı özellikler eksik olabilir ve beklendiği gibi çalışmayabilir. Bulduğunuz hataları lütfen bildiriniz.</Text>
+      </View>
       <View style={{width: 10000, height: 20, backgroundColor: '#f8f8f8'}} />
       <View style={{flexDirection:"row"}}>
              <TouchableOpacity
                style={styles.buttonStyle}
                onPress={this.onPress}
              >
-               <Text style={{color: "white"}}>  Geri Bildirim  </Text>
+               <Text style={{color: "#f8f8f8"}}>  Geri Bildirim  </Text>
              </TouchableOpacity>
              <View style={{width: 10, height: 20, backgroundColor: '#f8f8f8'}} />
              <TouchableOpacity
                style={styles.buttonStyle}
                onPress={this.onPress2}
              >
-               <Text style={{color: "white"}}>  Açık Kaynak Kodları  </Text>
+               <Text style={{color: "#f8f8f8"}}>  Açık Kaynak Kodları  </Text>
              </TouchableOpacity>
              </View>
                      <View style={{width: 10000, height: 1, backgroundColor: '#ebebeb'}} />
@@ -59,10 +61,10 @@ const styles = {
   TextStyle: {
     fontSize: 30,
     marginTop: 20,
-    backgroundColor: "white",
+    backgroundColor: "#f8f8f8",
   },
   accountStyle: {
-    backgroundColor: "white",
+    backgroundColor: "#f8f8f8",
     flexDirection: "row",
     height: 60,
     justifyContent: 'space-between',
@@ -71,7 +73,7 @@ const styles = {
     shadowOpacity: 0
   },
   subContainerStyle: {
-    backgroundColor: "white",
+    backgroundColor: "#f8f8f8",
     marginTop: 40,
     height: 60,
     justifyContent: 'center',
@@ -94,6 +96,20 @@ buttonStyle: {
   shadowRadius: 5,
   elevation: 1
 },
+headerTextStyle: {
+  fontSize: 40,
+  fontWeight: "bold",
+  color: "white"
+},
+headerViewStyle: {
+  marginTop: 40,
+  marginBottom: 10,
+  height: 49,
+  justifyContent: 'flex-start',
+  alignItems: 'baseline',
+  shadowOffset: { width: 0, height: 0 },
+  shadowOpacity: 0
+}
 }
 
 
