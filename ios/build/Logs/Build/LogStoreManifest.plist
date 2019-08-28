@@ -5,36 +5,6 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict>
-		<key>B403790E-0E33-4539-986C-A738B8D7EB18</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B403790E-0E33-4539-986C-A738B8D7EB18.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>SSALConnect project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SSALConnect</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project SSALConnect with scheme SSALConnect and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>573713114.54446495</real>
-			<key>timeStoppedRecording</key>
-			<real>573713131.57526898</real>
-			<key>title</key>
-			<string>Building project SSALConnect with scheme SSALConnect and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>B403790E-0E33-4539-986C-A738B8D7EB18</string>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

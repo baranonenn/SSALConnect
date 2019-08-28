@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 20 22:13:29 EET 2019
+#Tue Apr 09 07:41:30 EET 2019
 33.base=/Users/baranonen/Desktop/Projeler/SSALConnect/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 47.base=/Users/baranonen/Desktop/Projeler/SSALConnect/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 50.base=/Users/baranonen/Desktop/Projeler/SSALConnect/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

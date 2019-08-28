@@ -1,4 +1,4 @@
-#Wed Mar 20 12:58:36 EET 2019
+#Thu Mar 28 00:18:58 EET 2019
 base.0=/Users/baranonen/Desktop/Projeler/SSALConnect/android/app/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

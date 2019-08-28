@@ -13,7 +13,20 @@ return (
 <View style={containerStyle}>
 
 <View style={subContainerStyle}>
-  <Text style={{marginTop: 5, marginBottom: 5, alignItems: "center"}}>{data.title}</Text>
+
+<View style={{flexDirection: "row", justifyContent: "space-between"}}>
+<View style={{ flexDirection: "row", alignItems: "flex-start"}}>
+  <Text style={{fontSize: 20, fontWeight: "bold"}}>{data.day} </Text>
+  <Text style={{fontSize: 20, fontWeight:  "bold"}}>{data.month}</Text>
+</View>
+  <Text style={{fontSize: 15, fontWeight: "200"}}>{data.type}</Text>
+</View>
+
+</View>
+
+<View style={subContainerStyle}>
+
+  <Text style={{marginTop: 5, marginBottom: 5, alignItems: "center", fontWeight:  "600"}}>{data.title}</Text>
 </View>
 
 <View style={subContainerStyle}>
@@ -25,8 +38,6 @@ return (
 </View>
 
 <View style={buttonViewStyle}>
-
-
 
 
 
@@ -62,7 +73,7 @@ const styles = {
     borderRadius: 20,
     borderColor: '#cbced9',
     shadowColor: 'black',
-    shadowOffset: { width: 0, height: 0 },
+    shadowOffset: { width: 2, height: 2 },
     backgroundColor: '#cbced9',
     shadowOpacity: 0.1,
     shadowRadius: 2,
@@ -76,7 +87,6 @@ subContainerStyle: {
   borderBottomWidth: 1,
   padding: 10,
   justifyContent: 'center',
-  flexDirection: 'row',
   borderColor: 'gray',
   position: 'relative'
 },

@@ -1,18 +1,11 @@
 import React from 'react';
-import { TouchableOpacity, Button, Text, ScrollView, View, Image, Linking } from 'react-native';
+import { TouchableOpacity, Text, ScrollView, View, Image, Linking } from 'react-native';
 
 const Ayarlar = () => {
-  const { textStyle, subContainerStyle, accountStyle, bigTextStyle, buttonStyle} = styles;
+  const { textStyle, subContainerStyle } = styles;
   return (
     <ScrollView style={{backgroundColor: '#f8f8f8'}}>
-<View style={{ marginTop: 40}}>
-    <View style={{width: 10000, height: 2, backgroundColor: '#ebebeb'}} />
 
-    <View style={accountStyle}>
-        <Image source={require('./img/kullanıcı.png')} style={{ width:60 , height:40, marginBottom:10}} />
-        <Text style={bigTextStyle}>Beta Kullanıcısı </Text>
-    </View>
-    <View style={{width: 10000, height: 2, backgroundColor: '#ebebeb'}} />
 <View style={{width: 10000, height: 40, backgroundColor: '#f8f8f8'}} />
 
     <View style={subContainerStyle}>
@@ -28,18 +21,16 @@ const Ayarlar = () => {
                style={styles.buttonStyle}
                onPress={this.onPress}
              >
-               <Text style={{color: "#f8f8f8"}}>  Geri Bildirim  </Text>
+               <Text style={{color: 'white', fontWeight: 'bold', fontSize: 15}}>Geri Bildirim</Text>
              </TouchableOpacity>
-             <View style={{width: 10, height: 20, backgroundColor: '#f8f8f8'}} />
              <TouchableOpacity
                style={styles.buttonStyle}
                onPress={this.onPress2}
              >
-               <Text style={{color: "#f8f8f8"}}>  Açık Kaynak Kodları  </Text>
+               <Text style={{color: 'white', fontWeight: 'bold', fontSize: 15}}>GitHub</Text>
              </TouchableOpacity>
              </View>
                      <View style={{width: 10000, height: 1, backgroundColor: '#ebebeb'}} />
-             </View>
              </View>
           </ScrollView>
         );
@@ -86,15 +77,18 @@ imageStyle: {
   flex: 1
 },
 buttonStyle: {
-  backgroundColor: '#25337B',
-  padding: 15,
-  marginBottom: 15,
-  borderRadius: 10,
-  shadowColor: '#000',
-  shadowOffset: {width: 0, height: 0},
-  shadowOpacity: 0.1,
-  shadowRadius: 5,
-  elevation: 1
+    shadowOffset: { width: 2, height: 2 },
+    backgroundColor: '#cbced9',
+    flex: 1,
+    backgroundColor: '#25337B',
+    marginRight: 15,
+    marginLeft: 15,
+    marginBottom: 10,
+    padding: 10,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%'
 },
 headerTextStyle: {
   fontSize: 40,
